@@ -81,6 +81,20 @@ h1 {
     margin-bottom: 3px;
 }
 
+.submitted {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.is-hidden {
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.success_message, .greeting {
+  text-align: center;
+}
 
 /* ------------------------------------
 Button styling
